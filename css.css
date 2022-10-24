@@ -10,7 +10,8 @@ body
     background-color: black;
     width: 100%;
     height: 100%;
-    animation: forwards 1s start;
+   animation: forwards 1.5s start;
+    z-index: 5;
 }
 @keyframes start
 {
@@ -33,11 +34,37 @@ header>section
     margin-left: auto;
     margin-right: auto;
 }
-article
+header h2
 {
-    position: fixed;
-    background-color: white;
-    color: black;
-    width: 101%;
-    height: 600px;
+    font-size: 30px;
+    line-height: 60px;
+}
+nav
+{
+    background-color: blue;
+    width: 60%;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav i
+{
+    font-size: 120px;
+    color: white;
+}
+nav div
+{
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+nav p
+{
+    display: none;
+}
+@keyframes animacja2
+{
+    0% {display: none;}
+    100% {display: block;}
 }

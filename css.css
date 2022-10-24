@@ -2,4 +2,42 @@ body
 {
     background-color: black;
     color: white;
+    font-family: Verdana;
+}
+#start
+{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    animation: forwards 1s start;
+}
+@keyframes start
+{
+    0% {height: 100%;}
+    100% {height: 0%;}
+}
+header
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+header>section
+{
+    font-size: 70px;
+    line-height: 300px;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+article
+{
+    position: fixed;
+    background-color: white;
+    color: black;
+    width: 101%;
+    height: 600px;
 }

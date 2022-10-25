@@ -21,7 +21,6 @@ header
 {
     width: 100%;
     height: 500px;
-    color: white;
 }
 header>section
 {
@@ -47,7 +46,6 @@ nav
 nav i
 {
     font-size: 120px;
-    color: white;
 }
 nav div
 {
@@ -58,7 +56,6 @@ nav div
 }
 nav p
 {
-    color: white;
     display: none;
     font-style: italic;
 }
@@ -78,10 +75,11 @@ a
 }
 #aboutme
 {
+    border: white 1px solid;
     border-radius: 3%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #050606;
+    background-color: #000000;
     width: 900px;   
     height: 500px;
 }
@@ -189,8 +187,8 @@ iframe
 }
 @keyframes aboutme
 {
-    0% {background-color: #080909;}
-    100% {background-color: #0f0f0f;}
+    0% {background-color: #000000;}
+    100% {background-color: #0a0a0a;}
 }
 @keyframes avatar
 {

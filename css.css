@@ -157,6 +157,7 @@ iframe
 {
     margin-left: 110px;
     display: none;
+    border-radius: 5px;
 }
 ::-webkit-scrollbar 
 {

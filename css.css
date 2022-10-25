@@ -125,6 +125,7 @@ a
 }
 #aboutme_avatar
 {
+    border: white 2px solid;
     border-radius: 100%;
     margin-top: 10%;
     margin-left: 25%;

@@ -1,8 +1,12 @@
 body
 {
+    box-shadow: inset 0 0 5px black;
     background-color: black;
     color: white;
     font-family: Verdana;
+    background-image: url(https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/307170/2a80cf38f463cddd072b16157d4ef2820566b9da.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #start
 {
@@ -17,7 +21,6 @@ header
 {
     width: 100%;
     height: 500px;
-    background-color: black;
     color: white;
 }
 header>section

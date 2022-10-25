@@ -63,7 +63,7 @@ nav p
 nav i:hover, p:hover
 {
     color: black;
-    animation: forwards 0,5s animacja1;
+    animation: forwards 1s animacja1;
 }
 nav i:hover, nav p, nav p:hover
 {
